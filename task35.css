@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.tdstyle{
+    height:64px;
+    width:64px;
+    border:1px solid black;
+   line-height:0px;
+}
+.fontstyle{
+    height:64px;
+    width:64px;
+    text-align:center;
+    line-height:64px;
+}
+#map{
+    float:left;
+    position:relative;
+}
+#hint{
+    margin:150px;
+    float:left;
+}
+canvas{
+    position:absolute;
+    transition:top 10s,left 10s,transform 10s;
+    -webkit-transition:top 1s,left 1s,transform 1s;
+}
+textarea{
+    background:black;
+    color:darkgreen;
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 18px;
+    float:left;
+}
+#box div{
+    width:18px;
+    height:18px;
+    line-height: 18px;
+    background:darkgray;
+    text-align:center;
+}
+#input{
+    position:relative;
+}
+#box{
+    background:darkgray;
+    width:18px;
+    height:272px;
+    float:left;
+    overflow:hidden;
+}
+.error{
+    background: red;
+    border-radius: 50%;
+
+}
